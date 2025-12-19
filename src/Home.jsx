@@ -9,7 +9,7 @@ let Home = ()=>{
     }
     return(
         <>
-        <h1>This is my home page</h1>
+        <h1 id="ok">This is my home page</h1>
         <h2>my name is {name} </h2>
         <h3>my information are as follows {mydetails.name}</h3>
         <h3>{mydetails.age}</h3>
