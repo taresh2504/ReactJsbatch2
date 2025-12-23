@@ -17,3 +17,6 @@ const Child = ({myname,age,city}) => {
 export default Child
 
 
+
+
+
