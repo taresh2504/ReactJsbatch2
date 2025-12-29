@@ -1,6 +1,6 @@
 import React from "react";
 // Named export example:-
-export let Num=()=>{
+let Num=()=>{
     return(
         <div>
             Practicing named export
@@ -8,11 +8,13 @@ export let Num=()=>{
     )
 }
 
-export let Value=()=>{
+let Value=()=>{
     return(
         <div>
             Practicing 2 
         </div>
     )
 }
+
+export {Num,Value}
 
