@@ -1,4 +1,6 @@
 import React from "react"
+import img from './assets/react.svg'
+
 // Default export example:-
 let Home = ()=>{
     let name = 'Taresh'
@@ -14,6 +16,9 @@ let Home = ()=>{
         <h3>my information are as follows {mydetails.name}</h3>
         <h3>{mydetails.age}</h3>
         <h3>{mydetails.city}</h3>
+        <img src={img} alt="" />
+        <img src="vite.svg" alt="" />
+
         </>
     )
 }
