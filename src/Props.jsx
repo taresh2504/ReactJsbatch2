@@ -6,6 +6,7 @@ let Props=()=>{
         <>
         <h2>This is props page</h2>
         <Child myname='Taresh' age={20} city='raisen'/>
+        <Child myimg='/vite.svg'/>
         </>
     )
 }
