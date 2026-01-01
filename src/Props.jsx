@@ -5,8 +5,11 @@ let Props=()=>{
     return(
         <>
         <h2>This is props page</h2>
-        <Child myname='Taresh' age={20} city='raisen'/>
-        <Child myimg='/vite.svg'/>
+        {/* <Child myname='Taresh' age={20} city='raisen'/> */}
+        <div style={{display:"flex",gap:20}}>
+        <Child myimg='/vite.svg' mydes='Vite-logo' myprice='499' />
+        <Child myimg='/vite.svg' mydes='Normal-logo' myprice='100' />
+        </div>
         </>
     )
 }
