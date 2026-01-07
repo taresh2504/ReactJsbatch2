@@ -1,7 +1,7 @@
 import React from 'react'
 import img1 from './assets/react.svg'
 
-const Child = ({myimg,mydes,myprice}) => {
+const Child = ({myimg,mydes,myprice,data}) => {
     // console.log(props)
     // let {myname,age,city} = props //destructuring
   return (
@@ -25,13 +25,21 @@ const Child = ({myimg,mydes,myprice}) => {
         </button>
       </div> */}
       <br />
-      <div id='card'>
+      {/* <div id='card'>
         <img src={myimg} height='170' width='200' style={{marginLeft:20,marginTop:20}} />
         <hr />
         <h2 style={{marginLeft:70}}>Price {myprice}</h2>
         <h2 style={{marginLeft:70}}>{mydes}</h2>
         <button style={{marginLeft:90}}>Buy</button>
-      </div>
+      </div> */}
+      {
+        data.map((e)=>(
+          <div key={e.id}>
+            <h2>{e.name}</h2>
+            <h2>{e.price}</h2>
+          </div>
+        ))
+      }
     </>
   )
 }
