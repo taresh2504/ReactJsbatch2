@@ -10,15 +10,15 @@ const Layout = () => {
     <h2>LOGO</h2>
       <nav>
         <ul>
-            <li><Link to='/home'>Home</Link></li>
-            <li><Link to='/about'>About</Link></li>
-            <li><Link to='/contact'>Contact</Link></li>
-            <li><Link to='/services'>Services</Link></li>
+          <li><Link to='/Home'>Home</Link></li>
+          <li><Link to='/About'>About</Link></li>
+          <li><Link to='/Contact'>Contact</Link></li>
+          <li><Link to='/Services'>Services</Link></li>
         </ul>
       </nav>
 
-    {/* component will render here matlab ki home,about etc pages ki information yahaa dikhegi */}
-      <Outlet/>
+    {/* component will render here matlab ki home,about etc pages ki information yahaa dikhegi outlet me */}
+    <Outlet/>
 
       <footer>
         <Footer/>

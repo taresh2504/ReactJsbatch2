@@ -6,15 +6,14 @@ import './index.css'
 // import App from './Tailwind.jsx'
 // import App from './Propscard.jsx'
 // import App from './Navbar'
-import App from './Layout'
+// import App from './Routing.jsx'
+import App from './Hook.jsx'
 import { BrowserRouter } from 'react-router-dom'
 
 
 createRoot(document.getElementById('root')).render(
     <BrowserRouter>  
-    <App />
+    <App/>
     </BrowserRouter>
-
-
-    
+ 
 )
