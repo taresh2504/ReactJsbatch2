@@ -7,7 +7,8 @@ import './index.css'
 // import App from './Propscard.jsx'
 // import App from './Navbar'
 // import App from './Routing.jsx'
-import App from './Hook.jsx'
+// import App from './Hook.jsx'
+import App from './Hook2'
 import { BrowserRouter } from 'react-router-dom'
 
 

@@ -18,7 +18,6 @@ const Routing = () => {
           <Route path='Contact' element={<Contact />} />
           <Route path='Services' element={<Services />} />
           <Route path='*' element={<h1>page not found</h1>}/>
-
         </Route>
       </Routes>
     </>
