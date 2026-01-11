@@ -2,6 +2,8 @@ import React from 'react'
 import { useState } from 'react'
 
 const Hook = () => {
+    // keyword [variable,function] = useState(initial value)
+    
     let [count,setcount] = useState(0)
     let add = ()=>{
         setcount(count+1)

@@ -8,9 +8,12 @@ const Hook2 = () => {
   return (
     <>
       <h1 style={{backgroundColor:dark?"black":"white", color:dark?"white":"black"}}>{dark?"Dark mode":"Light Mode"}</h1>
-      <button onClick={()=>{setdark (!dark)}} >{dark?"light mode":"dark mode"}</button>
-      {show&&(<h1>Hello</h1>)}
-      <button onClick={()=>{setshow(!show)}}> change text</button>
+
+      <button onClick={()=>{setdark (!dark)}}>{dark?"light mode":"dark mode"}</button>
+
+      {show&&(<h1>Hello</h1>)} 
+
+      <button onClick={()=>{setshow(!show)}}> show text</button>
     </>
   )
 }
