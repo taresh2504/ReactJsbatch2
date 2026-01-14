@@ -11,6 +11,7 @@ const Formvalidation = () => {
         myname:'',
         myage:'',
         mycity:'',
+        mycontact:'',
         myemail:'',
         mypassword:'',
         mycpassword:''
@@ -22,10 +23,60 @@ const Formvalidation = () => {
         if (form.myname.trim()==''){
             alert('please fill your name')
         }
-        else if (form.myage.trim()=''){
+        else if (form.myage.trim()==''){
             alert('fill your age')
         }
-        else if(isNaN(form.myage))
+        else if(isNaN(form.myage)){
+          alert('please enter age in numbers')
+        }
+        else if (form.mycity.trim()==''){
+          alert('please enter city name')
+        }
+        else if (form.mycontact.trim()==''){
+          alert('please fill contact number')
+        }
+        else if (isNaN(form.mycontact)||form.mycontact.length<10||form.mycontact.length>10){
+          alert('please enter 10 digit number')
+        }
+        else if (form.myemail.trim()==''){
+          alert('please enter email')
+        }
+        else if (!(form.myemail.includes('@gmail.com'||'@yahoo.com'||'@outlook.com'))){
+          alert('please enter valid email')
+        }
+        else if (form.mypassword.trim()==''){
+          alert('please enter your password')
+        }
+        else if (!(form.mypassword.match(/`~!@#$%^&*()_-=+\|.;:'"<,>?[{}]`/))){
+          alert('password must contain 1 special character')
+        }
+        else if (!(form.mypassword).match(/[A-Z]/)){
+          alert('password must contain one capital letter')
+        }
+        else if (!(form.mypassword).match(/[a-z]/)){
+          alert('password must contain one small letter')
+        }
+        else if (!(form.mypassword).length>=8||(form.mypassword).length<=15 ){
+          alert('password is more than 8 character and less than 15 characters')
+        }
+        else if (form.mycpassword.trim()==''){
+          alert('please enter your cpassword')
+        }
+        else if (!(form.mycpassword.match(/`~!@#$%^&*()_-=+\|.;:'"<,>?[{}]`/))){
+          alert('cpassword must contain 1 special character')
+        }
+        else if (!(form.mycpassword).match(/[A-Z]/)){
+          alert('cpassword must contain one capital letter')
+        }
+        else if (!(form.mycpassword).match(/[a-z]/)){
+          alert('cpassword must contain one small letter')
+        }
+        else if (!(form.mycpassword).length>=8||(form.mycpassword).length<=15 ){
+          alert('cpassword is more than 8 character and less than 15 characters')
+        }
+        else if (!((form.mypassword)==(form.mycpassword))){
+          alert('password and cpassword must be same')
+        }
     }
   return (
     <>
@@ -35,6 +86,7 @@ const Formvalidation = () => {
         Enter name : <input type="text" name="myname" value={form.myname} onChange={handlechange} id="" /> <br /><br />
         Enter age : <input type="text" name="myage" value={form.myage} onChange={handlechange} id="" /> <br /><br />
         Enter city : <input type="text" name="mycity" value={form.mycity} onChange={handlechange} id="" /> <br /><br />
+        Enter contact : <input type="text" name="mycontact" value={form.mycontact} onChange={handlechange} id="" /> <br /><br />
         Enter email : <input type="text" name="myemail" value={form.myemail} onChange={handlechange} id="" /> <br /><br />
         Enter password : <input type="text" name="mypassword" value={form.mypassword} onChange={handlechange} id="" /> <br /><br />
         Enter cpassword : <input type="text" name="mycpassword" value={form.mycpassword} onChange={handlechange} id="" /> <br /><br />
