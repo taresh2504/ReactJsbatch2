@@ -32,6 +32,8 @@ const Child = ({myimg,mydes,myprice,data}) => {
         <h2 style={{marginLeft:70}}>{mydes}</h2>
         <button style={{marginLeft:90}}>Buy</button>
       </div> */}
+
+      
       {
         data.map((e)=>(
           <div key={e.id}>
@@ -43,6 +45,9 @@ const Child = ({myimg,mydes,myprice,data}) => {
     </>
   )
 }
+
+
+
 
 export default Child
 
