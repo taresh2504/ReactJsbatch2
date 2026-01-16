@@ -46,8 +46,8 @@ const Child = ({myimg,mydes,myprice,data}) => {
   )
 }
 
-
-
-
 export default Child
+
+
+
 
