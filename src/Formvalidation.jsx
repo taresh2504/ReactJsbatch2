@@ -47,32 +47,23 @@ const Formvalidation = () => {
         else if (form.mypassword.trim()==''){
           alert('please enter your password')
         }
-        else if (!(form.mypassword.match(/`~!@#$%^&*()_-=+\|.;:'"<,>?[{}]`/))){
+        else if (!(form.mypassword.match(/[!@#$%^&*]/))){
           alert('password must contain 1 special character')
         }
-        else if (!(form.mypassword).match(/[A-Z]/)){
+        else if (!(form.mypassword.match(/[A-Z]/))){
           alert('password must contain one capital letter')
         }
-        else if (!(form.mypassword).match(/[a-z]/)){
+        else if (!(form.mypassword.match(/[a-z]/))){
           alert('password must contain one small letter')
         }
-        else if (!(form.mypassword).length>=8||(form.mypassword).length<=15 ){
+        else if (!(form.mypassword.match(/[0-9]/))){
+          alert('password must contain one number')
+        }
+        else if (!(form.mypassword.length>=8)||(form.mypassword.length<=15) ){
           alert('password is more than 8 character and less than 15 characters')
         }
         else if (form.mycpassword.trim()==''){
           alert('please enter your cpassword')
-        }
-        else if (!(form.mycpassword.match(/`~!@#$%^&*()_-=+\|.;:'"<,>?[{}]`/))){
-          alert('cpassword must contain 1 special character')
-        }
-        else if (!(form.mycpassword).match(/[A-Z]/)){
-          alert('cpassword must contain one capital letter')
-        }
-        else if (!(form.mycpassword).match(/[a-z]/)){
-          alert('cpassword must contain one small letter')
-        }
-        else if (!(form.mycpassword).length>=8||(form.mycpassword).length<=15 ){
-          alert('cpassword is more than 8 character and less than 15 characters')
         }
         else if (!((form.mypassword)==(form.mycpassword))){
           alert('password and cpassword must be same')
