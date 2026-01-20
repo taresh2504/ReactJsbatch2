@@ -1,0 +1,29 @@
+{
+
+    "railway":[{
+        "name":"Taresh",
+        "number":"1234567890",
+        "aadharno":"987654321",
+        "age":"20",
+        "checkin":"20-01-26",
+        "checkout":"25-01-26",
+        "people":"2"
+    },{
+        "name":"Krish",
+        "number":"1234567890",
+        "aadharno":"987654321",
+        "age":"18",
+        "checkin":"22-01-26",
+        "checkout":"28-01-26",
+        "people":"5"
+    },{
+        "name":"Priyesh",
+        "number":"1234567890",
+        "aadharno":"987654321",
+        "age":"23",
+        "checkin":"18-01-26",
+        "checkout":"26-01-26",
+        "people":"9"
+    }]
+
+}
