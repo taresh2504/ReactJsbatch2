@@ -10,7 +10,8 @@ import './index.css'
 // import App from './Hook.jsx'
 // import App from './Hook2'
 // import App from './Form'
-import App from './Formvalidation'
+// import App from './Formvalidation'
+import App from './Useeffect'
 import { BrowserRouter } from 'react-router-dom'
 
 
