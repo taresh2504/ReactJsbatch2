@@ -11,7 +11,8 @@ import './index.css'
 // import App from './Hook2'
 // import App from './Form'
 // import App from './Formvalidation'
-import App from './Useeffect'
+// import App from './Useeffect'
+import App from './Datashow'
 import { BrowserRouter } from 'react-router-dom'
 
 
