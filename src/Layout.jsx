@@ -20,6 +20,8 @@ const Layout = () => {
     {/* component will render here matlab ki home,about etc pages ki information yahaa dikhegi outlet me */}
     <Outlet/>
 
+    
+
       <footer>
         <Footer/>
       </footer>
