@@ -55,7 +55,8 @@ const Datashow = () => {
           console.log(err);
 
         })
-      })
+      
+
   return (
     <>
     <table border={1}>

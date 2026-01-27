@@ -99,6 +99,7 @@ const Formvalidation = () => {
 
           if (alreadyuser){
             alert('Already a user')
+            navigate('/Login')
             return
           }
 
