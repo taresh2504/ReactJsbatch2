@@ -10,6 +10,14 @@ const Datashow = () => {
   // json-server --watch db.json
   let [data,setdata] = useState([])
 
+
+  let [search,setsearch] = useState('') 
+
+  let filterdata = data.filter((e)=>{
+    return(e.name.toLowerCase().includes(search.toLowerCase())) || (e.number.toString().includes(search.toString()))
+  })
+
+  
   let FetchData = ()=>{
     let api = 'http://localhost:3000/railway'
 
@@ -59,6 +67,10 @@ const Datashow = () => {
 
   return (
     <>
+    <input type="text" name="" value={search} onChange={(e)=>{setsearch(e.target.value)}} id="" />
+    <br />
+    <br />
+
     <table border={1}>
       <thead>
         <tr>
@@ -69,11 +81,13 @@ const Datashow = () => {
           <th>checkin</th>
           <th>checkout</th>
           <th>people</th>
+          <th>edit</th>
+          <th>delete</th>
         </tr>
       </thead>
 
       <tbody>
-        {data.map((e)=>(
+        {filterdata.map((e)=>(
           <tr key={e.id}>
             <td>{e.name}</td>
             <td>{e.number}</td>
@@ -82,6 +96,8 @@ const Datashow = () => {
             <td>{e.checkin}</td>
             <td>{e.checkout}</td>
             <td>{e.people}</td>
+            <td>{e.edit}</td>
+            <td>{e.delete}</td>
           </tr>
         ))}
       </tbody>
