@@ -4,12 +4,14 @@ import { Navigate, useNavigate } from "react-router-dom"
 
 // Default export example:-
 let Home = ()=>{
+
 //     let name = 'Taresh'
 //     let mydetails = {
 //         name:'Taresh Tandy',
 //         age:'20',
 //         city:'bhopal'
 //     }
+
     let Navigate = useNavigate()
 
     let cont =()=>{
@@ -18,8 +20,9 @@ let Home = ()=>{
     
     return(
         <>
-        <h1>This is my home page</h1>
-        <button onClick={cont}>go to contact</button>
+        
+        <h1 className="text-center mt-10 font-serif">This is my home page</h1>
+        {/* <button onClick={cont}>go to contact</button> */}
         {/* <h1 id="ok">This is my home page</h1> */}
         {/* <h2>my name is {name} </h2>
         <h3>my information are as follows {mydetails.name}</h3>

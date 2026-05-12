@@ -67,6 +67,8 @@ const Datashow = () => {
 
   return (
     <>
+
+
     <input type="text" name="" value={search} onChange={(e)=>{setsearch(e.target.value)}} id="" />
     <br />
     <br />
@@ -104,6 +106,8 @@ const Datashow = () => {
 
 
     </table>
+
+    
     </>
   )
 }

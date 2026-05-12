@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 // value me apne usestate ka naam likhte h.taaki controlled component ban sake react ka control le paaaye. 
+
 const Form = () => {
 
     let [name,setname] = useState('')
@@ -26,6 +27,7 @@ const Form = () => {
 
   return (
     <>
+    
     <h2>Form Handling</h2>
       <label htmlFor="">Enter name</label>
       <input type="text" name="" id="" onChange={handlechange} />
@@ -43,6 +45,7 @@ const Form = () => {
       <label htmlFor="">Email</label>
       <input type="text" name="" id="" onChange={(m)=>{setmail(m.target.value)}} />
       <h1>{mail}</h1>
+
     </>
   )
 }

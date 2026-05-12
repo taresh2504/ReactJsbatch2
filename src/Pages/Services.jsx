@@ -3,7 +3,7 @@ import React from 'react'
 const Services = () => {
   return (
     <>
-      Service Page
+      <h1 className="text-center mt-10 font-serif">Service Page</h1>
     </>
   )
 }

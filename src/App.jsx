@@ -1,29 +1,14 @@
-import React from "react";
-import Navbar from "./Navbar";
-import Home from "./Home";
-import Footer from "./Footer";
-import { Num,Value } from "./Export";
-import './App.css'
+import AppRoutes from "./Routes";
+import AdminPanel from "./Adminpanel";
+import ChatApp from "./ChatApp";
 
 
-
-let App = ()=>{
-
-  // javascript 
-
-  return(
-    <>
-      <Navbar/>
-      <Home/>
-      <Footer/>
-      <Num/>
-      <Value/>
-    </>
-  )
-
+let App = () => {
+  return (
+  <AppRoutes />
+  // <AdminPanel/>
+  // <ChatApp/>
+)
 }
 
-
 export default App
-
-

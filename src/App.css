@@ -6,3 +6,165 @@
     background-color: darkmagenta;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  background: #f8fafc;
+  font-family: Arial, sans-serif;
+}
+
+.quiz-container {
+  width: 350px;
+  background: white;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.quiz-title {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.quiz-desc {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+.login-box {
+  width: 320px;
+  margin: 120px auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background: white;
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: serif;
+}
+
+.login-box p {
+  margin: 5px 0;
+  font-family: serif;
+  font-size: 14px;
+}
+
+.login-box input {
+  width: 90%;
+  height: 27px;
+  margin-bottom: 12px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 8px;
+}
+
+.login-box button {
+  width: 50%;
+  height: 34px;
+  margin-left: 65px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #facc15;
+  cursor: pointer;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+body {
+  background: #f1f5f9;
+  font-family: Arial, sans-serif;
+}
+
+.chat-container {
+  width: 350px;
+  height: 500px;
+  background: white;
+  margin: 40px auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+}
+
+.chat-header {
+  background: #2563eb;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.chat-box {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.my-msg {
+  background: #2563eb;
+  color: white;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 8px;
+  align-self: flex-end;
+  max-width: 70%;
+}
+
+.other-msg {
+  background: #e5e7eb;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 8px;
+  align-self: flex-start;
+  max-width: 70%;
+}
+
+.chat-input {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 6px;
+}
+
+.chat-input button {
+  margin-left: 5px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+

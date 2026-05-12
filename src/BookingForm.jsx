@@ -3,7 +3,10 @@ import React from 'react'
 const BookingForm = () => {
   return (
     <>
+    
       <h1>Booking Form</h1>
+
+
       <form action="">
         Enter name <input type="text" name="name" value={form.name} onChange={handlechange} id="" /><br /><br />
         Enter number <input type="text" name="number" value={form.number} onChange={handlechange} id="" /><br /><br />
@@ -19,6 +22,8 @@ const BookingForm = () => {
         </select><br /><br />
         <button type="submit">Book</button>
       </form>
+
+
     </>
   )
 }

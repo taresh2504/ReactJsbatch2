@@ -13,10 +13,16 @@ import './index.css'
 // import App from './Formvalidation'
 // import App from './Useeffect'
 // import App from './Datashow'
+// import App from './Quiz'
+import App from './App'
+// import App from './Routes'
+// import App from './Signup'
+// import App from './Login2'
+// import App from './Cards'
 // import App from './BookingForm'
-import App from './MainParent'
+// import App from './MainParent'
 import { BrowserRouter } from 'react-router-dom'
-import UserContext from './Context'
+// import UserContext from './Context'
 
 let mydata = {
     name:"taresh",
@@ -30,10 +36,10 @@ let course = "Python FSD"
 
 
 createRoot(document.getElementById('root')).render(
-    <UserContext.Provider value={{mydata,college,course}}>
+    // <UserContext.Provider value={{mydata,college,course}}>
     <BrowserRouter>  
     <App/>
     </BrowserRouter>
-    </UserContext.Provider>
+    // </UserContext.Provider>
  
 )
