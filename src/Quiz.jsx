@@ -22,8 +22,8 @@ const Quiz = () => {
         </nav>
 
         <div className='flex justify-end gap-3 mt-3'>
-          <Link to='/signup'><p className='border-2 border-black font-serif bg-amber-400 text-center rounded-2xl h-8 w-20 -mt-10'>Sign up</p></Link>
-          <Link to='/login2'><p className='border-2 border-black font-serif bg-amber-400 text-center rounded-2xl h-8 w-20 -mt-10'>Login</p></Link>
+          <Link to='/signup'><p className='border-2 border-black font-serif bg-red-600 text-center rounded-2xl h-8 w-20 -mt-10'>Sign up</p></Link>
+          <Link to='/login2'><p className='border-2 border-black font-serif bg-red-600 text-center rounded-2xl h-8 w-20 -mt-10'>Login</p></Link>
         </div>
       </div>
 
