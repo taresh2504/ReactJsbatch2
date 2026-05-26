@@ -20,6 +20,7 @@ const AdminPanel = () => {
     localStorage.setItem('complaints', JSON.stringify(complaints))
   }, [complaints])
 
+
   const handleSubmit = (e) => {
     e.preventDefault()
 
@@ -73,7 +74,8 @@ const AdminPanel = () => {
         <button>Add Complaint</button>
       </form>
 
-      <hr />
+      {/* <hr /> */}
+      <br />
 
       <h3>All Complaints</h3>
 
@@ -81,7 +83,7 @@ const AdminPanel = () => {
 
       {
         complaints.map((c) => (
-          <div key={c.id} style={{ border: '1px solid gray', margin: '10px', padding: '10px' }}>
+          <div key={c.id} style={{ border: '1px solid black', margin: '11px', padding: '11px' }}>
             <p><b>Title:</b> {c.title}</p>
             <p><b>Flat No:</b> {c.flatNo}</p>
             <p><b>Status:</b> {c.status}</p>
