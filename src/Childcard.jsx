@@ -1,5 +1,6 @@
 import React from 'react'
 import './Tailwind.css'
+// Childcard.jsx 
 
 const Childcard = ({image,place,price,button}) => {
     // Assignment 2 :- Create a card design by using Tailwind Css and Props

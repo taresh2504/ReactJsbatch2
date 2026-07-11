@@ -1,5 +1,6 @@
 import React from 'react'
 import img1 from './assets/react.svg'
+// Child.jsx
 
 const Child = ({myimg,mydes,myprice,data}) => {
     // console.log(props)
