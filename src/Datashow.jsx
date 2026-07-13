@@ -3,6 +3,8 @@ import { useEffect } from 'react'
 import axios from 'axios'
 import { useState } from 'react'
 
+// Datashow.jsx
+
 // 1. get method
 // 2. delete
 
