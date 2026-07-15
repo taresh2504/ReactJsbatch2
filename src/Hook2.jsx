@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+// Hook.jsx2
 
 const Hook2 = () => {
     let [dark,setdark] = useState(false)
