@@ -2,6 +2,8 @@ import React from 'react'
 import UserContext from './Context'
 import { useContext } from 'react'
 
+// Mainchild.jsx
+
 const MainChild = () => {
     let {mydata,course,institute} = useContext(UserContext)
 
