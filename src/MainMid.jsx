@@ -1,3 +1,5 @@
+// Mainmid.jsx
+
 import React from 'react'
 import MainChild from './MainChild'
 

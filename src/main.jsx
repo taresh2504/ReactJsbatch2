@@ -1,6 +1,6 @@
+// main.jsx
 import { createRoot } from 'react-dom/client'
 import './index.css'
-// main.jsx
 // import App from './App.jsx'
 // import App from './Props.jsx'
 // import App from "./Assignment1";
