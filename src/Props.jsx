@@ -1,3 +1,5 @@
+// Props.jsx 
+
 import Child from "./Child"
 import img1 from './assets/react.svg'
 
