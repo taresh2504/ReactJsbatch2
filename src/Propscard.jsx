@@ -1,3 +1,5 @@
+// Propscard.jsx 
+
 import React from 'react'
 import Childcard from './Childcard'
 import hillstation from './assets/hillstation.jpg'
