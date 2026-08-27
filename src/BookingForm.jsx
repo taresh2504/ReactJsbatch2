@@ -1,6 +1,5 @@
-import React from 'react'
-
 // Bookingform.jsx 
+import React from 'react'
 
 const BookingForm = () => {
   return (

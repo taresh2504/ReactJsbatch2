@@ -1,7 +1,8 @@
+// Card.jsx
 import React from 'react'
 import './Tailwind.css'
 
-// Card.jsx
+
 const Card = () => {
   // Create a card design by using Tailwind Css and Props in static way
   return (

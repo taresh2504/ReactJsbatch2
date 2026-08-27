@@ -1,8 +1,7 @@
-import React from 'react'
-import logo from './assets/react.svg'
-
 // Assignment 1 
 // Create a Navbar with css and left side with image logo
+import React from 'react'
+import logo from './assets/react.svg'
 
 
 const Assignment1 = () => {
