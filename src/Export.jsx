@@ -1,7 +1,6 @@
+// Export.jsx 
 import React from "react";
 // Named export example:-
-
-// Export.jsx 
 
 
 let Num=()=>{

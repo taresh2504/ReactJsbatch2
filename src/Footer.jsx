@@ -1,7 +1,7 @@
+// Footer.jsx
 import React from "react"
 import './App.css'
 
-// Footer.jsx
 
 let Footer =()=>{
     return(
