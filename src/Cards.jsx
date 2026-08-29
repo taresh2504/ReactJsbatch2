@@ -1,6 +1,7 @@
+// Cards.jsx
 import React from 'react'
 import './Tailwind.css'
-// Cards.jsx
+
 
 const Cards = ({img}) => {
   return (
