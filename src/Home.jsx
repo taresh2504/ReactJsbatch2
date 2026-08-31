@@ -1,8 +1,7 @@
+// Home.jsx
 import React from "react"
 import img from './assets/react.svg'
 import { Navigate, useNavigate } from "react-router-dom"
-
-// Home.jsx
 
 // Default export example:-
 let Home = ()=>{
