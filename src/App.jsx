@@ -6,8 +6,8 @@ import ChatApp from "./ChatApp";
 
 let App = () => {
   return (
-  // <AppRoutes />
-  <AdminPanel/>
+  <AppRoutes />
+  // <AdminPanel/>
   // <ChatApp/>
 )
 }
