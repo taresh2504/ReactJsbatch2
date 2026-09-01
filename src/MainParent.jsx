@@ -1,3 +1,4 @@
+// MainParent.jsx
 import React from 'react'
 import MainMid from './MainMid'
 
