@@ -1,5 +1,6 @@
 // Assignment 1.jsx 
 // Create a Navbar with css and left side with image logo
+
 import React from 'react'
 import logo from './assets/react.svg'
 
