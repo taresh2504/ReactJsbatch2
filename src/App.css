@@ -44,7 +44,8 @@ input {
 button {
   width: 100%;
   padding: 8px;
-  background: #2563eb;
+  /* background: #2563eb; */
+  background: purple;
   color: white;
   border: none;
   cursor: pointer;
