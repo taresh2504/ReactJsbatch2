@@ -5,7 +5,7 @@
 }
 
 #text{
-    background-color: darkmagenta;
+    background-color: lightgreen;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -45,8 +45,8 @@ button {
   width: 100%;
   padding: 8px;
   /* background: #2563eb; */
-  background: brown;
-  color: black;
+  background: blue;
+  color: grey;
   border: none;
   cursor: pointer;
   border-radius: 5px;
