@@ -45,8 +45,8 @@ button {
   width: 100%;
   padding: 8px;
   /* background: #2563eb; */
-  background: indigo;
-  color: white;
+  background: rgb(209, 90, 209);
+  color: black;
   border: none;
   cursor: pointer;
   border-radius: 5px;
