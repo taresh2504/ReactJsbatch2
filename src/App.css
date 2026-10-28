@@ -44,8 +44,8 @@ input {
 button {
   width: 100%;
   padding: 8px;
-  background: #2563eb;
-  /* background: brown; */
+  /* background: #2563eb; */
+  background: yellow;
   color:  black;
   border: none;
   cursor: pointer;
@@ -53,7 +53,8 @@ button {
 }
 
 button:hover {
-  background: #1e40af;
+  /* background: #1e40af; */
+  background: red;
 }
 
 .login-box {
