@@ -46,15 +46,15 @@ button {
   padding: 8px;
   background: #2563eb;
   /* background: darkorange; */
-  color:  darkgoldenrod;
+  color:  white;
   border: none;
   cursor: pointer;
   border-radius: 5px;
 }
 
 button:hover {
-  /* background: #1e40af; */
-  background: red;
+  background: #1e40af;
+  /* background: red; */
 }
 
 .login-box {
