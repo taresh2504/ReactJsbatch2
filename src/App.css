@@ -53,8 +53,8 @@ button {
 }
 
 button:hover {
-  background: #1e40af;
-  /* background: red; */
+  /* background: #1e40af; */
+  background: purple;
 }
 
 .login-box {
