@@ -1,12 +1,12 @@
 /* App.css */
 
 #ok{
-    color: green;
+  color: green;
 }
 
 #text{
-    background-color: lightgreen;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgreen;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -44,9 +44,9 @@ input {
 button {
   width: 100%;
   padding: 8px;
-  /* background: #2563eb; */
-  background: darkmagenta;
-  color:  white;
+  background: #2563eb;
+  /* background: darkmagenta; */
+  color:  black;
   border: none;
   cursor: pointer;
   border-radius: 5px;
